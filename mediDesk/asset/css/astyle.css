@@ -1,0 +1,21 @@
+body{
+
+
+	background: rgb(32,45,56);
+background: -moz-linear-gradient(120deg, rgba(32,45,56,1) 0%, rgba(50,86,116,1) 94%);
+background: -webkit-linear-gradient(120deg, rgba(32,45,56,1) 0%, rgba(50,86,116,1) 94%);
+background: linear-gradient(120deg, rgba(32,45,56,1) 0%, rgba(50,86,116,1) 94%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#202d38",endColorstr="#325674",GradientType=1);
+
+background-position: center;
+background-size: cover;
+color: #fff;
+}
+.formcss{
+	margin-top: 10%;
+	margin-left: 13%;
+}
+.companey{
+	text-align: center;
+	margin-top: 10%;
+}

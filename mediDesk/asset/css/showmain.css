@@ -1,0 +1,137 @@
+body{
+
+
+background-color: gray;
+}
+.container {
+ 
+ background-color: #fff;
+ height: 80%;
+}
+
+
+.head{
+
+
+	margin-top: 4%;
+
+background-color:#5081BC;
+}
+
+
+/* Element | http://localhost/mediDesk/showmain.php?id=d104 */
+
+div.col-sm-8:nth-child(1) {
+  color: #fff;
+  font-size: large;
+  text-transform: uppercase;
+}
+
+/* bootstrap.min.css | https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css */
+
+
+
+/* Element | http://localhost/mediDesk/showmain.php?id=d104 */
+
+div.col-sm-8:nth-child(1) > h2:nth-child(3) {
+  text-transform: capitalize;
+}
+
+
+
+/* Element | http://localhost/mediDesk/showmain.php?id=d104 */
+
+div.col-sm-8:nth-child(1) > h2:nth-child(3) {
+  margin-bottom: 3.5rem;
+}
+
+/* Element | http://localhost/mediDesk/showmain.php?id=d104 */
+
+div.col-sm-8:nth-child(1) > h1:nth-child(1) {
+  margin-top: 32px;
+}
+
+/* Element | http://localhost/mediDesk/showmain.php?id=d104 */
+
+.col-sm-4 > img:nth-child(1) {
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 34%;
+}
+.doctor > div:nth-child(1) {
+ margin-top: 0px;
+}
+
+
+
+/* Element | http://localhost/mediDesk/showmain.php?id=d104 */
+
+.drow {
+  margin-top: 1px;
+}
+
+/* Element | http://localhost/mediDesk/showmain.php?id=d104 */
+
+div.col-sm-6:nth-child(1) {
+  margin-top: 11px;
+}
+
+/* Element | http://localhost/mediDesk/showmain.php?id=d104 */
+
+.doctor > div:nth-child(1) {
+  padding-top: 28px;
+}
+
+/* Element | http://localhost/mediDesk/showmain.php?id=d104 */
+
+div.col-sm-6:nth-child(2) > p:nth-child(1) {
+  margin-top: 20px;
+}
+
+
+
+/* Element | http://localhost/mediDesk/showmain.php?id=d104 */
+
+div.col-sm-6:nth-child(2) {
+  text-align: right;
+}
+
+
+/* Element | http://localhost/mediDesk/showmain.php?id=d104 */
+
+div.container:nth-child(3) {
+  margin-top: 0px;
+  background-color: #bdb5b5;;
+  height: 40px;
+}
+
+
+
+/* Element | http://localhost/mediDesk/showmain.php?id=d104 */
+
+div.container:nth-child(4) {
+  margin-top: 0px;
+}
+
+
+
+/* Element | http://localhost/mediDesk/showmain.php?id=d104 */
+
+div.container:nth-child(4) > div:nth-child(1) > div {
+  border: 1px solid black;
+  height: 500px;
+  text-align: left;
+
+}
+
+
+
+/* Element | http://localhost/mediDesk/showmain.php?id=d104&pid=p102&hid=12# */
+
+#previewImage {
+  text-align: center;
+  color: #fff;
+}
+
+/* Element | http://localhost/mediDesk/showmain.php?id=d104&pid=p102&hid=12# */
+

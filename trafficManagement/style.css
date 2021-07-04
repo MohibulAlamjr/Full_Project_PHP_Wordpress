@@ -1,0 +1,281 @@
+.loginbody{
+	background-image: url(images/loginbg.jpg);
+}
+.title{
+	text-align: center;
+	color: #ffffff;
+	font-size: 40px;
+	margin-top: 8%;
+}
+.loginform{
+height: 400px;
+width: 600px;
+background-color: rgba(234,235,237,.15);
+/*margin-left: 33%;*/
+margin: 0 auto;
+text-align: center;
+font-size: 25px;
+}
+.loginform input{
+	font-size: 24px;
+	
+}  
+
+.loginform label{
+	margin-right: 
+}
+.loginform button{
+
+	font-size: 20px;
+	height: 40px;
+	width: 180px;
+	background-color: #091bee;
+	color:#fff;
+	transition: .1s;
+	margin-top:33px;
+}
+.loginform button:hover{
+background-color:rgba(255,255,255,.7);
+border: 0px;
+color:#091bee; 
+}
+.welcomeBody{
+
+	background-image: url(images/welcome.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.WelcomeForm{
+	height: 600px;
+	width: 550px;
+	background-color: rgba(52, 153, 247,.3);
+	margin: 0 auto;
+	margin-top: 130px;
+	padding-top: 57px;
+}
+.profileimg{
+
+	height: 140px;
+	width: 140px;
+	border-radius: 50%;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.profileimg img{
+	height: 140px;
+	width: 140px;
+	margin-left: -1px;
+	margin-top: -14px;
+}
+.formwelcome h1{
+	font-size: 40px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+.formwelcome h3{
+	font-size: 20px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+.forget{
+  margin-top: -20px;
+	text-align: left;
+	color: #fff;
+	font-size: 20px;
+	margin-left: 25px;
+}
+.forgetmessage{
+
+	 margin-top: -40px;
+	text-align: left;
+	color:#3cc266;
+	font-size: 25px;
+	margin-left: 25px;
+
+}
+.adminOption{
+
+}
+.adminOption button{
+	font-size: 24px;
+	margin-top: 30px;
+	margin-left: 33px;
+	margin-top: 132px;
+	height: 40px;
+	background-color: #091bee;
+	color:#fff;
+}
+.adminOption button:hover{
+background-color:rgba(255,255,255,.7);
+
+color:#091bee; 
+}
+.adminOption a{
+	text-decoration: none;
+	color: #fff;
+
+}
+.adminOption a:hover{
+	text-decoration: none;
+	color:#091bee;
+
+}
+
+.addinfoBody{
+
+	background-image: url(images/addinfo.jpg);
+}
+.addinfoBody{
+	margin-top: 6%;
+	margin-left: 40%;
+	font-size: 30px;
+	font-weight: bold;
+	
+}
+.addinfoBody input{
+
+	height: 30px;
+	width: 400px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-color: #fff;
+	background: transparent;
+	font-size: 20px;
+	
+}
+.radiob{
+	height: 0px !important; 
+	width: 0px !important;
+	
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-color: #fff;
+	background: transparent;
+	font-size: 20px;
+
+}
+
+.updateinfo{
+	background-image: url(images/updateinfo.jpg);
+	background-size: cover;
+
+
+}
+.updateinfo .form{
+	background-color: rgba(106,160,247,.25);
+	width: 500px;
+	height: 600px;
+	margin-left: 37%;
+	margin-top: 10%;
+
+}
+.updateinfo form{
+	padding: 5%;
+}
+.updateinfo h2{
+	font-size: 24px;
+}
+.updateinfo input,option{
+	font-size: 18px;
+}
+.updateinfo .radiob{
+	font-size: 22px;
+}
+
+.deleteManage{
+	background-image: url(images/delete.jpg);
+	background-size: cover;
+	color: #fff;
+	font-size: 30px;
+}
+.deleteManage .form{
+	width: 500px;
+	height: 450px;
+	margin-left: 36%;
+	margin-top: 12%;
+	background-color: rgba(29,30,31,.65);
+	padding: 2%;
+}
+.deleteManage input,button	{
+	font-size: 22px;
+}
+.deleteManage button:hover{
+	background-color: #991ef7;
+	color: #fff;
+}
+.autobody{
+	background-image: url(images/autobackground.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.autoleftform{
+
+	height: 930px;
+	width: 48.5%;
+	float: left;
+	
+	border-right: 2px solid #fff;
+
+}
+.autoleftform input{
+
+	color: #000;
+}
+.autorightform{
+
+	height: 930px;
+	width: 51%;
+	float: right;
+	
+}
+.autorightform input{
+
+	color: #000;
+}
+
+.vidbody{	
+		background-image: url(images/loginbg.jpg);
+}
+.vehicletest{
+	padding-top: 50px;
+	height: 400px;
+	width: 600px;
+	background-color: rgba(234,235,237,.15);
+	/*margin-left: 33%;*/
+	/*margin: 0 auto;*/
+	margin-top: 300px;
+	margin-left: 34%;
+	text-align: justify;
+	font-size: 25px;
+}
+.vehicletest .input{
+	
+}
+.vehicletest input{
+	font-size: 24px;
+	margin-top: 5px;
+}  
+
+.vehicletest label{
+	margin-right: 0px;
+}
+.vehicletest button{
+
+	font-size: 20px;
+	height: 40px;
+	width: 180px;
+	background-color: #091bee;
+	color:#fff;
+	transition: .1s;
+	margin-top:33px;
+}
+.vehicletest button:hover{
+	background-color:rgba(255,255,255,.7);
+	border: 0px;
+	color:#091bee;
+}

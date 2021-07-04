@@ -1,0 +1,68 @@
+body{
+	background-image:url(../image/publicbg.jpg);
+	background-repeat: no-repeat;
+/*	background-position: center;*/
+	background-size: cover;
+	/*box-shadow: inset 0 0 5px 2px #282a2d;*/
+}
+
+
+
+
+/* Element | http://localhost/mediDesk/makePrescription.php */
+
+
+/* Element | http://localhost/mediDesk/makePrescription.php */
+
+.intro {
+  text-align: center;
+  color: #fff;
+}
+
+/* Element | http://localhost/mediDesk/makePrescription.php */
+
+.intro > h1:nth-child(1) {
+  font-size: 40px;
+}
+
+	
+
+/* Element | http://localhost/mediDesk/makePrescription.php */
+
+.showdiseas {
+  height: 682px;
+  background: #fff;
+}
+
+/* Element | http://localhost/mediDesk/makePrescription.php */
+
+.showmedicine {
+  background-color: #b9d2d2;
+  height: 680px;
+}
+
+/* Element | http://localhost/mediDesk/makePrescription.php */
+
+.showbio {
+  background-color: #e1e7f0;
+  height: 680px;
+}
+
+
+
+/* Element | http://localhost/mediDesk/makePrescription.php */
+
+input.form-control:nth-child(1) {
+  width: 50%;
+}
+
+/* Element | http://localhost/mediDesk/makePrescription.php */
+
+input.btn {
+  /* margin-left: 100%; */
+  margin-left: 52%;
+}
+#submit2 {
+ margin-left: 216px;
+ margin-top: 4%;
+}

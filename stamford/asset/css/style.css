@@ -1,0 +1,257 @@
+body{
+	background-image: url(bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+/* Element | http://localhost/stamford/ */
+
+.stable {
+  height: 650px;
+  background: rgb(227,229,232);
+background: -moz-linear-gradient(145deg, rgba(227,229,232,0.40940126050420167) 0%, rgba(17,121,224,0.31416316526610644) 100%);
+background: -webkit-linear-gradient(145deg, rgba(227,229,232,0.40940126050420167) 0%, rgba(17,121,224,0.31416316526610644) 100%);
+background: linear-gradient(145deg, rgba(227,229,232,0.40940126050420167) 0%, rgba(17,121,224,0.31416316526610644) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e3e5e8",endColorstr="#1179e0",GradientType=1);
+  margin-top: 36%;
+}
+
+
+.change {
+ background: rgb(255,255,255);
+background: -moz-linear-gradient(145deg, rgba(255,255,255,0.48503151260504207) 0%, rgba(9,238,143,0.32816876750700286) 100%);
+background: -webkit-linear-gradient(145deg, rgba(255,255,255,0.48503151260504207) 0%, rgba(9,238,143,0.32816876750700286) 100%);
+background: linear-gradient(145deg, rgba(255,255,255,0.48503151260504207) 0%, rgba(9,238,143,0.32816876750700286) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#09ee8f",GradientType=1);
+ height: 80%;
+width: 80%;
+
+}
+
+
+/* Element | http://localhost/stamford/ */
+
+.stable {
+  padding-top: 1px;
+}
+
+/* style.css | http://localhost/stamford/asset/css/style.css */
+
+.change {
+  /* margin-top: 13%; */
+  /* margin-left: 7%; */
+  margin-top: 12%;
+  margin-left: 10%;
+}
+
+/* Element | http://localhost/stamford/ */
+
+.img > img:nth-child(1) {
+  width: 88%;
+}
+
+/* Element | http://localhost/stamford/ */
+
+.img {
+  text-align: center;
+}
+
+/* Element | http://localhost/stamford/ */
+
+#question {
+  text-align: center;
+}
+
+/* Element | http://localhost/stamford/ */
+
+#question > h1:nth-child(1) {
+  font-weight: bold;
+  color: #fff;
+  font-size: 40px;
+  line-height: 66px;
+  margin-top: 10px;
+  font-family: arial;
+
+}
+
+
+/* style.css | http://localhost/stamford/asset/css/style.css */
+
+
+
+/* bootstrap.min.css | https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css */
+
+p {
+  color: beige;
+  margin-top: 20%;
+}
+
+/* style.css | http://localhost/stamford/asset/css/style.css */
+
+
+
+/* Element | http://localhost/stamford/ */
+
+.login {
+  width: 73%;
+  margin-left: 14%;
+}
+
+/* Element | http://localhost/stamford/ */
+
+.caption {
+  background-color: antiquewhite;
+}
+
+/* Element | http://localhost/stamford/ */
+
+#question {
+  margin-top: 11%;
+}
+
+/* Element | http://localhost/stamford/ */
+
+.login > form:nth-child(2) {
+  margin-top: 25px;
+}
+
+/* Element | http://localhost/stamford/ */
+
+
+.inputGroup {
+   background-color: #fff;
+   display: block;
+   margin: 10px 0;
+   position: relative;
+}
+ .inputGroup label {
+   padding: 12px 30px;
+   width: 100%;
+   display: block;
+   text-align: left;
+   color: #3c454c;
+   cursor: pointer;
+   position: relative;
+   z-index: 2;
+   transition: color 200ms ease-in;
+   overflow: hidden;
+}
+ .inputGroup label:before {
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+   content: '';
+   background-color: #5562eb;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%) scale3d(1, 1, 1);
+   transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+   opacity: 0;
+   z-index: -1;
+}
+ .inputGroup label:after {
+   width: 32px;
+   height: 32px;
+   content: '';
+   border: 2px solid #d1d7dc;
+   background-color: #fff;
+   background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.414 11L4 12.414l5.414 5.414L20.828 6.414 19.414 5l-10 10z' fill='%23fff' fill-rule='nonzero'/%3E%3C/svg%3E ");
+   background-repeat: no-repeat;
+   background-position: 2px 3px;
+   border-radius: 50%;
+   z-index: 2;
+   position: absolute;
+   right: 30px;
+   top: 50%;
+   transform: translateY(-50%);
+   cursor: pointer;
+   transition: all 200ms ease-in;
+}
+ .inputGroup input:checked ~ label {
+   color: #fff;
+}
+ .inputGroup input:checked ~ label:before {
+   transform: translate(-50%, -50%) scale3d(56, 56, 1);
+   opacity: 1;
+}
+ .inputGroup input:checked ~ label:after {
+   background-color: #54e0c7;
+   border-color: #54e0c7;
+}
+ .inputGroup input {
+   width: 32px;
+   height: 32px;
+   order: 1;
+   z-index: 2;
+   position: absolute;
+   right: 30px;
+   top: 50%;
+   transform: translateY(-50%);
+   cursor: pointer;
+   visibility: hidden;
+}
+ .form {
+   padding: 0 16px;
+   max-width: 550px;
+   margin: 50px auto;
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 36px;
+}
+ body {
+   background-color: #d1d7dc;
+   font-family: 'Fira Sans', sans-serif;
+}
+ *, *::before, *::after {
+   box-sizing: inherit;
+}
+ html {
+   box-sizing: border-box;
+}
+ code {
+   background-color: #9aa3ac;
+   padding: 0 8px;
+}
+ 
+/* Element | http://localhost/stamford/ */
+
+.qq {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Element | http://localhost/stamford/ */
+
+.fst {
+  width: 80%;
+  margin-left: 10%;
+}
+
+/* Element | http://localhost/stamford/ */
+
+#question > h1:nth-child(1) > span:nth-child(2) {
+  color: darkblue;
+}
+
+/* Element | http://localhost/stamford/ */
+
+form .btn {
+  margin-top: 10%;
+}
+
+/* Element | http://localhost/stamford/ */
+
+div.form-group:nth-child(3) {
+  margin-bottom: 0rem;
+}
+
+/* Element | http://localhost/stamford/ */
+
+#submit1 {
+  margin-top: 16%;
+}

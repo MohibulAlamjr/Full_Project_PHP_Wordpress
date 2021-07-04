@@ -1,0 +1,480 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: none
+}
+
+ul,
+ol {
+    list-style-type: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+/*====================navbar css part start=======================================*/
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+}
+
+.navbar-brand h1 {
+    font-family: 'Yatra One', cursive;
+    background: -webkit-linear-gradient(#bfc7c7,#fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    transition: all linear .3s;
+    padding: 0 15px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #e84545;
+}
+
+.menu_fixed {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    transition: all linear .3s;
+}
+
+.menu_bg {
+    background: #02918c;
+    animation: bg 1s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+@keyframes bg {
+    from {
+        top: -50px;
+    }
+
+    to {
+        top: 0
+    }
+}
+
+
+/*====================navbar css part end=======================================*/
+
+
+/*====================banner css part start=======================================*/
+#banner {
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#banner::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(42, 45, 72, 0.81)
+}
+
+.banner-text {
+    padding-top: 227px;
+    padding-bottom: 156px;
+    position: relative;
+    z-index: 99
+}
+
+.banner-text h1 {
+    color: #fff;
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 13px;
+
+}
+
+.banner-text p {
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 33px;
+    padding-bottom: 72px;
+}
+
+.banner-text a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    padding: 18px 56px;
+    border: 1px solid #e84545;
+    border-radius: 3px;
+    transition: all linear .3s
+}
+
+.banner-text a:hover {
+    background: #e84545
+}
+
+
+/*====================banner css part end=======================================*/
+
+/*====================features css part start=======================================*/
+#features {
+    padding: 120px 0 0px 0;
+}
+
+.features-item {
+    padding-bottom: 50px;
+}
+
+.features-item h3 {
+    color: #2d3033;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    padding-top: 34px;
+    padding-bottom: 12px;
+}
+
+.features-item p {
+    color: #6c7279;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 21px;
+}
+.features-item img{
+    height: 100%;
+}
+/*====================features css part end=======================================*/
+
+/*====================works css part start=======================================*/
+
+#works {
+    padding-bottom: 100px;
+    padding-top: 80px
+}
+
+.works-item {
+    position: relative;
+    
+}
+
+.work-item img {
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+.work-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(213, 65, 64, 0.78);
+    text-align: center;
+    padding-top: 105px;
+    transform: scale(0);
+    transition: all linear .4s
+}
+
+.work-overlay h3 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+.work-overlay p {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.works-item:hover .work-overlay {
+    transform: scale(1)
+}
+
+/*====================works css part end=======================================*/
+
+/*====================team css part start=======================================*/
+#team {
+    padding-bottom: 100px;
+    padding-top: 100px
+}
+
+.card {
+    border: 0;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-body h5 {
+    color: #2d3033;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 5px;
+    padding-bottom:
+}
+
+.card-body h6 {
+    color: #e84545;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.card-body p {
+    color: #6c7279;
+    font-size: 13px;
+    line-height: 21px
+}
+
+.social-icon i {
+    color: #c6cacc;
+    font-size: 14px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #c6cacc;
+    transition: all linear .3s
+}
+
+.social-icon i:hover {
+    color: #e84545
+}
+
+.works-item img{
+    height: 100% !important;
+}
+/*====================team css part end=======================================*/
+
+/*====================testimonial css part start=======================================*/
+#testimonial {
+    background: #53354a;
+    padding-top: 100px;
+}
+
+.testimonial-item {
+    margin-top: 110px;
+}
+
+.testimonial-item p {
+    font-family: 'Cardo', serif;
+    font-size: 36px;
+    color: #fff;
+    font-style: italic;
+    line-height: 42px;
+}
+
+.testimonial-item span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 700;
+}
+
+/*====================testimonial css part end=======================================*/
+
+/*====================download css part start=======================================*/
+#download {
+    padding: 100px 0;
+}
+
+.download-content h3 {
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #2d3033;
+}
+
+.download-content p {
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #2d3033;
+    padding-bottom: 32px
+}
+
+.download-content a {
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #e84545;
+    padding: 18px 54px;
+    border: 1px solid #e84545;
+    border-radius: 3px;
+    text-transform: uppercase;
+    transition: all linear .5s;
+    position: relative;
+    overflow: hidden;
+    display: inline-block
+}
+
+.download-content a:hover {
+/*    background: #e84545;*/
+    color: #fff;
+    position: relative;
+    z-index: 9
+}
+
+.download-content a::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0%;
+    bottom: 0;
+    left: 0;
+    background: #e84545;
+    border-radius: 50% 50% 0 0;
+    transition: all linear .5s;
+    z-index: -1
+}
+
+.download-content a:hover::after{
+    height: 200%;
+}
+
+
+
+/*====================download css part end=======================================*/
+
+/*====================contact us css part start=======================================*/
+#contact {
+    background: #3a3e64;
+    padding-bottom: 70px;
+}
+
+.contact-left h3 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 5px;
+    padding-top: 70px;
+}
+
+.contact-left p {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 2px
+}
+
+.contact-mid h3 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 10px;
+    padding-top: 70px;
+
+}
+
+.contact-right h3 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 10px;
+    padding-top: 70px;
+
+}
+
+.contact-right p {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 22px
+}
+
+
+/*====================contact us css part end=======================================*/
+
+/*====================footer css part start=======================================*/
+#footer {
+    background: #313454;
+    padding: 28px 0;
+}
+
+.footer-content p {
+    color: #808080;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0
+}
+
+.ft-span {
+    color: #808080;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#ft-span-nam {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer-content i {
+    color: red
+}
+
+/*====================footer css part end=======================================*/
+
+
+
+
+
+.feature h1{
+    text-align: center;
+    
+    margin-bottom: 90px;
+}
+
+.worktab h1{
+
+ text-align: center;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+}

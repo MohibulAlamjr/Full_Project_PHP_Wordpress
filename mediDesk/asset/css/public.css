@@ -1,0 +1,67 @@
+body{
+	background-image:url(../image/publicbg.jpg);
+	background-repeat: no-repeat;
+/*	background-position: center;*/
+	background-size: cover;
+	/*box-shadow: inset 0 0 5px 2px #282a2d;*/
+}
+
+
+/* Element | http://localhost/mediDesk/public.php */
+
+.name > h1:nth-child(1) {
+  color: #fff;
+  font-size: 50px;
+}
+
+/* Element | http://localhost/mediDesk/public.php */
+
+.name {
+  text-align: center;
+  background: rgb(32,45,56);
+background: -moz-linear-gradient(145deg, rgba(32,45,56,0.2553396358543417) 0%, rgba(32,58,79,0.17130602240896353) 94%);
+background: -webkit-linear-gradient(145deg, rgba(32,45,56,0.2553396358543417) 0%, rgba(32,58,79,0.17130602240896353) 94%);
+background: linear-gradient(145deg, rgba(32,45,56,0.2553396358543417) 0%, rgba(32,58,79,0.17130602240896353) 94%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#202d38",endColorstr="#203a4f",GradientType=1);
+}
+
+/* Element | http://localhost/mediDesk/public.php */
+
+
+/* Element | http://localhost/mediDesk/public.php */
+
+.container {
+  margin-top: 197px;
+}
+.welcome {
+ text-align: center;
+ font-size: 60px;
+ color: #fff;
+}
+.col-sm > p:nth-child(3) {
+ text-align: center;
+}
+button.btn {
+ width: 48%;
+ height: 60px;
+ margin-top: 11%;
+}
+
+
+
+/* Element | http://localhost/mediDesk/doctorw.php */
+/*Element | http://localhost/mediDesk/doctorw.php */
+/*.form-control {
+  display: inline;
+}
+
+ 
+
+.btn {
+  display: inline-table;
+  margin-left: 100%;
+  margin-top: -10%;*/
+}
+
+/* Element | http://localhost/mediDesk/prescribe.php */
+
